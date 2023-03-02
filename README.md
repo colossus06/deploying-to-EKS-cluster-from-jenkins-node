@@ -136,5 +136,8 @@ sudo mv ./aws-iam-authenticator /usr/local/bin/
 ![image](https://user-images.githubusercontent.com/96833570/222452891-8a8a90ff-fdd1-4da5-a340-188608d13a89.png)
 
 
+![image](https://user-images.githubusercontent.com/96833570/222506434-3dd3a1dc-560f-46c7-ba47-586e77b4c53f.png)
+
+
 
 `eksctl delete cluster --name clu`
