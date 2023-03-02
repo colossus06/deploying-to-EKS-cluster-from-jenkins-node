@@ -3,13 +3,9 @@ deploying-to-EKS-cluster-from-jenkins-node
 
 * 1- eks cluster is up and running
 * 2- jenkins is up and running
-* 3- Install jenkins plugins:
-  * Docker, 
-  * Docker pipeline,
-  * Kubernetes Continuous Deploy
 
 
-## Jenkins-master-setup
+## Jenkins-setup
 
 ```
 #Change Host Name to Jenkins
