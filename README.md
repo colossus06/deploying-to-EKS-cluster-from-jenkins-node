@@ -120,7 +120,21 @@ aws-configure
 
 
 ## install aws iam authenticator
+
+```
 curl -Lo aws-iam-authenticator https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.5.9/aws-iam-authenticator_0.5.9_linux_amd64
 chmod +x ./aws-iam-authenticator
 sudo mv ./aws-iam-authenticator /usr/local/bin/
+```
 
+
+![image](https://user-images.githubusercontent.com/96833570/222448292-d29254db-6029-4dd8-8d88-30fcf68efdb0.png)
+
+
+`kubectl get node`
+
+![image](https://user-images.githubusercontent.com/96833570/222452891-8a8a90ff-fdd1-4da5-a340-188608d13a89.png)
+
+
+
+`eksctl delete cluster --name clu`
