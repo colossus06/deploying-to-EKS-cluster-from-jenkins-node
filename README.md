@@ -48,12 +48,6 @@ sudo service jenkins status
 #sudo systemctl start jenkins
 ```
 
-### Jenkins Global Tool Configuration
-
-### Gradle 
-
-Manage Jenkins -> Global Tool Configuration -> Gradle
-Setup Gradle
 
 
 ###  configure Jenkins Jenkins user to run Docker builds
