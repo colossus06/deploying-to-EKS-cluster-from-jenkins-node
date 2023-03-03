@@ -85,7 +85,7 @@ sudo systemctl enable docker
 sudo systemctl restart docker
 ```
 
-##2- EKS Setup
+## 2- EKS Setup
 
 ### install aws-cli
 
@@ -112,7 +112,7 @@ kubectl version --short --client
 ```
 
 
-aws-configure
+Run `aws-configure` and configure defaults.
 
 
 ## install aws iam authenticator
@@ -122,7 +122,11 @@ curl -Lo aws-iam-authenticator https://github.com/kubernetes-sigs/aws-iam-authen
 chmod +x ./aws-iam-authenticator
 sudo mv ./aws-iam-authenticator /usr/local/bin/
 ```
+### Creating the eks cluster
 
+You can this [java maven repo](https://github.com/colossus06/java-maven).
+
+`eksctl create cluster --name clu --region us-east-1 --nodegroup-name my-nodes --node-type t3.small --managed --nodes 1 `
 
 ![image](https://user-images.githubusercontent.com/96833570/222448292-d29254db-6029-4dd8-8d88-30fcf68efdb0.png)
 
@@ -133,6 +137,7 @@ sudo mv ./aws-iam-authenticator /usr/local/bin/
 
 
 ![image](https://user-images.githubusercontent.com/96833570/222506434-3dd3a1dc-560f-46c7-ba47-586e77b4c53f.png)
+
 
 
 
