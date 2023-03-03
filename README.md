@@ -1,5 +1,11 @@
 # deploying-to-EKS-cluster-from-jenkins-node
-deploying-to-EKS-cluster-from-jenkins-node
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/96833570/222667672-caa236ad-4349-4308-9d0f-6d7805077b3e.png" />
+</p>
+
+
+
 
 * 1- eks cluster is up and running
 * 2- jenkins is up and running
